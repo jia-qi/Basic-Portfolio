@@ -1,0 +1,60 @@
+h1{
+   font-family: Georgia;
+   color: #4aaaa5;
+   font-size:45px;
+  }
+
+h2{
+   color: #4aaaa5; 
+   font-size: 40px;
+   
+  }
+  
+p{
+  color:#777777;
+  line-height: 200%;
+ } 
+  
+.hline{
+  width: 650px;
+  height:5px;
+  background: #dddddd;
+  margin: 40px;
+  float:left;
+  
+  }
+     
+img{
+   float:left;
+   padding: 20px;
+   }
+   
+p{
+font-size: 14;
+font-family:Arial;
+ }
+ 
+body {
+    background-image: url("assets/images/fresh_snow.png");/*working?*/
+   
+}
+
+.boxed {
+  background-color:white;
+  padding: 30px  ;
+  width:  650px;
+  float: left;
+  }
+  
+.right_box{
+  background-color: white;
+  padding: 30px;
+  width: 270px;
+  float:right;
+  position:relative;
+  right:130px;
+  text-align:center;
+  
+   }
+   
+   
