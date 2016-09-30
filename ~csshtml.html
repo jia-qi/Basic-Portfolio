@@ -1,62 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta-charset="utf-8">
-	<title>About Me</title>
+    <meta charset="utf-8">    
+    <title>Contact Page</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/~css.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-	
-		
   </head>
+  
   <body>
+    
+	<h1> Contact</h1>
+	<br></br>
+	
+    <form action="/my-handling-form-page" method"post">
+	  <div>
+	    <label for="name">Name:<br></label></br>
+		<!-- "for" is a formal way to link a label to a form widget. 
+		Attribute references the id of the corresponding widget. -->
+		<input type="text" id="name" name="user_name" />
+		<!--input is called element. Text is attribute. Text accepts any
+		value. mail accepts only email address-->
+	  </div>
+	  <div>
+	    <label for="mail">E-mail:<br></label></br>
+		<input type"email" id="mail" name="user_mail"/>
+		
+	  </div>
+	  <div>
+	    <label for ="msg">Message:<br></label></br>
+		<textarea id="msg" name="user_message"></textarea>
+	  </div>
+	  <div class="button"> <!-- now <button> element-->
+	    <button type="submit"> Submit</button>
+	  </div>
+  </form>
   
-  <div class="section">
-    <div class="container_start">
-      <h1> About Me </h1>  
-      <h2> Vickie Kuo </h2>
-	  
-	<div class="hline"></div> 
-        
-  </div>
   
-  <div class="boxed">
- 
+	
+	
+	
+	</form>
   
-    <img src = "assets/images/profile.jpg" alt="profile" height="200" width "400">
   
-    <p> Welcome to my profie! I graduated from UC Irvine with a bachelors in Mechanical Engineering. I initially worked in HVAC and then in the
-    energy saving industry in Taiwan for four years where my company manufactured power savers. I moved back to California a year ago, and am excited to 
-    start a new career as   a developer. </p>
-  
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
-  
-  </div>
-  
-  <div class="right_box">
-  
-  <h2> Connect With Me </h2>
-  
-  </div>
-  
-  <!--
-  
-  <div class="contact">
-  
-   <p> You can contact me at my website at <a href="www.yahoo.com">www.vickie.com<a><p>
-  
-   <h2> <strong> Contact Info </strong></h2>
-  
-   <ul>
-     <li> blah blah </li>
-	 <li> blah blah </li>
-	 <li> blah blah </li>
-   </ul>
-  ->
-  </div>
-  
- 
-  
+
   </body>
 </html>

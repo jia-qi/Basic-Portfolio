@@ -1,18 +1,21 @@
 h1{
    font-family: Georgia;
    color: #4aaaa5;
-   font-size:45px;
+   font-size:30px;
+   font-weight:bold;
   }
 
 h2{
    color: #4aaaa5; 
-   font-size: 40px;
+   font-size: 20px;
+   font-family:Arial;
    
   }
   
 p{
   color:#777777;
   line-height: 200%;
+  font-family: Arial;
  } 
   
 .hline{
@@ -35,7 +38,7 @@ font-family:Arial;
  }
  
 body {
-    background-image: url("assets/images/fresh_snow.png");/*working?*/
+    background-image: url("assets/images/snow.png");/*not working*/
    
 }
 
@@ -57,4 +60,14 @@ body {
   
    }
    
+ /*form*/
+Form{
+  /* to center on page*/
+  margin:0 auto;
+  width:400px;;
+  /*to make box*/
+  padding:1em;
+  border:1px solid #CCC;
+  border-radius: 0em;
+}
    
