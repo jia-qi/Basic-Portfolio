@@ -1,4 +1,4 @@
-div#fixedheader{
+div#fixedheader{  /* you don't need to add the div tag before the id here */
  position:fixed;
  top:0px;
  left:0px;
@@ -48,7 +48,7 @@ font-family:Arial;
  }
  
 body {
-    background-image: url("../images/snow.png");/*not working*/
+    background-image: url("../images/snow.png");/*not working*/  /* this is working! it just doesn't actually look like snow :) */
    
 }
 
@@ -74,7 +74,7 @@ body {
    margin:0; }
    
  /*form*/
-Form{
+Form {  /* i'm not sure why this works but it is working. instead of calling on the Form tag use form or the class instead from now on*/
   /* to center on page*/
   margin:0 auto;
   width:400px;;
